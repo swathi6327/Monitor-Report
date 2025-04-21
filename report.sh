@@ -2,11 +2,11 @@
 
 # Set environment variables
 DATE=$(date +"%Y-%m-%d_%H-%M-%S")
-HOSTNAME=$(hostname)
+HOSTNAME=$13.60.60.178
 REPORT_DIR="/path/to/reports"
 REPORT_FILE="$REPORT_DIR/report_$DATE.txt"
-S3_BUCKET="s3://your-s3-bucket-name"
-GIT_REPO_DIR="/path/to/your/git/repo"
+S3_BUCKET="s3://mys3-swathi"
+GIT_REPO_DIR="https://github.com/swathi6327/Monitor-Report.git"
 
 # Create reports directory if it doesn't exist
 mkdir -p "$REPORT_DIR"
