@@ -23,4 +23,3 @@
    
 
 } > "log1.txt"
-chv-szdu-hbr
